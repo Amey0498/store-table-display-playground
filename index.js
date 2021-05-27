@@ -26,7 +26,6 @@ log(highScorers.map(sortByName => sortByName.name + " : " + sortByName.points).s
 
 log("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
 
-//for ascending
 var sorted = highScorers.sort(function (a, b) { return b.points - a.points;});
 
 sorted.map(sortByPoints => sortByPoints.name + " : " + sortByPoints.points).join("\n");
